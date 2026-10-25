@@ -16,7 +16,7 @@
 
 ## 📰 News
 
-- **2026-10**: Repository created with the first 23 entries.
+- **2026-10**: Repository created with the first 21 entries.
 
 ## 📑 Table of Contents
 
@@ -24,9 +24,8 @@
 - [Unified Biology LLMs](#-unified-biology-llms)
   - [Multi-Modality / Generalist](#multi-modality--generalist)
   - [Genomics](#genomics)
+  - [Protein](#protein)
   - [Cell & Tissue](#cell--tissue)
-- [Encoder-Fused Multimodal LLMs](#-encoder-fused-multimodal-llms)
-- [Reasoning + Generation](#-reasoning--generation)
 - [All-Atom Generative Models](#-all-atom-generative-models)
 - [Benchmarks & Analyses](#-benchmarks--analyses)
 - [Inspiration: General-Domain Unified Multimodal Generation](#-inspiration-general-domain-unified-multimodal-generation)
@@ -53,7 +52,7 @@
 
 ## 🧬 Unified Biology LLMs
 
-*Single LLMs that read and write biological modalities natively, via a shared vocabulary, early-fusion tokens, or biology-as-text.*
+*Single LLMs that read and write biological modalities natively, via a shared vocabulary, early-fusion tokens, or biology-as-text, including LLMs that reason in language and drive structure generation.*
 
 ### Multi-Modality / Generalist
 
@@ -65,26 +64,18 @@
 
 - 🌐 **Carbon-X**: Open DNA-understanding LLM built on Qwen3-14B [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/HuggingFaceBio/Carbon-X) [![Blog](https://img.shields.io/badge/Blog-0A66C2)](https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release) <br> *Hugging Face* · Blog · `2026-10` · `DNA` `Text`
 
+### Protein
+
+- **COS**: Chain of Structures: Connecting Reasoning and Generation for Protein Design [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.biorxiv.org/content/10.64898/2026.10.09.758133) <br> *Scinetics, HKUST* · bioRxiv · `2026-10` · `Protein` `Structure` `Text`
+- **Prompteina**: Designing Protein Structures from Natural Language [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2610.13917) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/jleechung/prompteina) <br> *University of Washington* · arXiv · `2026-10` · `Protein` `Structure` `Text`
+- **Proteo-R1**: Reasoning Foundation Models for De Novo Protein Design [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2605.02937) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/smiles724/Proteo-R1) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/thinking-bio-lab/proteor1-generate) [![Blog](https://img.shields.io/badge/Blog-0A66C2)](https://smiles724.github.io/r1/) <br> *Stanford, UTokyo/RIKEN, CUHK* · ICML 2026 · `2026-05` · `Protein` `Structure` `Text`
+
 ### Cell & Tissue
 
 - **TissueNarrator**: Generative Modeling of Spatial Transcriptomics with Large Language Models [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.biorxiv.org/content/10.1101/2025.11.24.690325) <br> *CMU* · bioRxiv · `2025-11` · `Cell` `Text`
 - **CellTok**: Early-Fusion Multimodal Large Language Model for Single-Cell Transcriptomics via Tokenization [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.biorxiv.org/content/10.1101/2025.10.22.684047) <br> *Tsinghua, Alibaba* · bioRxiv · `2025-10` · `Cell` `Text`
 - **C2S-Scale**: Scaling Large Language Models for Next-Generation Single-Cell Analysis [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.biorxiv.org/content/10.1101/2025.04.14.648850) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/vandijklab/cell2sentence) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/vandijklab/C2S-Scale-Gemma-2-27B) <br> *Yale, Google* · bioRxiv · `2025-04` · `Cell` `Text`
 - **Cell2Sentence**: Teaching Large Language Models the Language of Biology [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.biorxiv.org/content/10.1101/2023.09.11.557287) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/vandijklab/cell2sentence) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/vandijklab/pythia-160m-c2s) <br> *Yale* · ICML 2024 · `2023-09` · `Cell` `Text`
-
-## 🔌 Encoder-Fused Multimodal LLMs
-
-*Pretrained biology encoders bridged into an LLM through adapters or Q-formers.*
-
-- **Bio-BLIP**: A Multimodal Architecture for Transferable Reasoning in Genomic Variant Interpretation [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.biorxiv.org/content/10.64898/2026.05.12.724740) <br> *Stanford* · bioRxiv · `2026-05` · `DNA` `Protein` `Text`
-
-## 🧠 Reasoning + Generation
-
-*An LLM that reasons in language and steers or interleaves with a structure generator.*
-
-- **COS**: Chain of Structures: Connecting Reasoning and Generation for Protein Design [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.biorxiv.org/content/10.64898/2026.10.09.758133) <br> *Scinetics, HKUST* · bioRxiv · `2026-10` · `Protein` `Structure` `Text`
-- **Prompteina**: Designing Protein Structures from Natural Language [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2610.13917) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/jleechung/prompteina) <br> *University of Washington* · arXiv · `2026-10` · `Protein` `Structure` `Text`
-- **Proteo-R1**: Reasoning Foundation Models for De Novo Protein Design [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2605.02937) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/smiles724/Proteo-R1) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/thinking-bio-lab/proteor1-generate) [![Blog](https://img.shields.io/badge/Blog-0A66C2)](https://smiles724.github.io/r1/) <br> *Stanford, UTokyo/RIKEN, CUHK* · ICML 2026 · `2026-05` · `Protein` `Structure` `Text`
 
 ## 🧊 All-Atom Generative Models
 
@@ -97,7 +88,6 @@
 *Benchmarks and analysis papers for evaluating unified biology models.*
 
 - **BioMirage**: When Do Biological Reasoning Models Use Their Biological Inputs? [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2610.00898) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/mims-harvard/bio-mirage) [![Blog](https://img.shields.io/badge/Blog-0A66C2)](https://zitniklab.hms.harvard.edu/biomirage) <br> *Harvard (Zitnik Lab)* · arXiv · `2026-10` · `DNA` `Protein` `Cell` `Text`
-- **PerturbQA**: Contextualizing Biological Perturbation Experiments through Language [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2502.21290) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/genentech/PerturbQA) <br> *Genentech* · ICLR 2025 · `2025-02` · `Cell` `Text`
 
 ## 🎨 Inspiration: General-Domain Unified Multimodal Generation
 
