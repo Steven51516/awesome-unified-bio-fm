@@ -6,7 +6,7 @@
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)
-![Last Commit](https://img.shields.io/github/last-commit/Steven51516/awsome-ai4sci-fm)
+![Last Commit](https://img.shields.io/github/last-commit/Steven51516/awesome-unified-bio-fm)
 
 </div>
 
@@ -118,7 +118,7 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for th
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Steven51516/awsome-ai4sci-fm&type=Date)](https://star-history.com/#Steven51516/awsome-ai4sci-fm&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Steven51516/awesome-unified-bio-fm&type=Date)](https://star-history.com/#Steven51516/awesome-unified-bio-fm&Date)
 
 ## License
 
