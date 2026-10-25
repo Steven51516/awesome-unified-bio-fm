@@ -16,7 +16,7 @@
 
 ## 📰 News
 
-- **2026-10**: Repository created with the first 21 entries.
+- **2026-10**: Repository created with the first 25 entries.
 
 ## 📑 Table of Contents
 
@@ -26,7 +26,9 @@
   - [Genomics](#genomics)
   - [Protein](#protein)
   - [Cell & Tissue](#cell--tissue)
-- [All-Atom Generative Models](#-all-atom-generative-models)
+- [Structure Prediction & Generation](#-structure-prediction--generation)
+  - [All-Atom](#all-atom)
+  - [Protein](#protein-1)
 - [Benchmarks & Analyses](#-benchmarks--analyses)
 - [Inspiration: General-Domain Unified Multimodal Generation](#-inspiration-general-domain-unified-multimodal-generation)
 
@@ -56,7 +58,7 @@
 
 ### Multi-Modality / Generalist
 
-- **BioMatrix**: Towards a Comprehensive Biological Foundation Model Spanning the Modality Matrix of Sequences, Structures, and Language [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2606.22138) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/QizhiPei/BioMatrix) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/QizhiPei/biomatrix) <br> *Pei et al.* · arXiv · `2026-06` · `Protein` `Molecule` `Structure` `Text`
+- **BioMatrix**: Towards a Comprehensive Biological Foundation Model Spanning the Modality Matrix of Sequences, Structures, and Language [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2606.22138) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/QizhiPei/BioMatrix) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/QizhiPei/biomatrix) <br> *Renmin Univ., Shanghai AI Lab* · arXiv · `2026-06` · `Protein` `Molecule` `Structure` `Text`
 - **SciReasoner**: Laying the Scientific Reasoning Ground Across Disciplines [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2509.21320) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/open-sciencelab/SciReason) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/SciReason) <br> *Shanghai AI Lab* · arXiv · `2025-09` · `DNA` `RNA` `Protein` `Molecule` `Text`
 - **TxGemma**: Efficient and Agentic LLMs for Therapeutics [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2504.06196) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/google/txgemma-release-67dd92e931c857d15e4d1e87) [![Blog](https://img.shields.io/badge/Blog-0A66C2)](https://developers.google.com/health-ai-developer-foundations/txgemma) <br> *Google* · arXiv · `2025-04` · `DNA` `RNA` `Protein` `Molecule` `Cell` `Text`
 
@@ -77,11 +79,20 @@
 - **C2S-Scale**: Scaling Large Language Models for Next-Generation Single-Cell Analysis [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.biorxiv.org/content/10.1101/2025.04.14.648850) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/vandijklab/cell2sentence) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/vandijklab/C2S-Scale-Gemma-2-27B) <br> *Yale, Google* · bioRxiv · `2025-04` · `Cell` `Text`
 - **Cell2Sentence**: Teaching Large Language Models the Language of Biology [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.biorxiv.org/content/10.1101/2023.09.11.557287) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/vandijklab/cell2sentence) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/vandijklab/pythia-160m-c2s) <br> *Yale* · ICML 2024 · `2023-09` · `Cell` `Text`
 
-## 🧊 All-Atom Generative Models
+## 🧊 Structure Prediction & Generation
 
-*Generative models of structure across all biomolecule types in one model.*
+*Structure models that serve as the structural backbone of unified biology systems.*
+
+### All-Atom
 
 - **RFD4-Proteina**: All-atom generative design across proteins, nucleic acids, sugars, and modified residues [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://rfd4-proteina.org/assets/paper/RFD4-Proteina.pdf) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/RosettaCommons/RFD4-Proteina) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/nvidia/RFD4-Proteina) [![Blog](https://img.shields.io/badge/Blog-0A66C2)](https://rfd4-proteina.org/) <br> *UW IPD (Baker Lab), NVIDIA* · Preprint · `2026-10` · `Protein` `DNA` `RNA` `Molecule` `Structure`
+- **AlphaFold 3**: Accurate Structure Prediction of Biomolecular Interactions with AlphaFold 3 [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.nature.com/articles/s41586-024-07487-w) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/google-deepmind/alphafold3) <br> *Google DeepMind, Isomorphic Labs* · Nature 2024 · `2024-05` · `Protein` `DNA` `RNA` `Molecule` `Structure`
+
+### Protein
+
+- **PAR**: Protein Autoregressive Modeling via Multiscale Structure Generation [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2602.04883) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/bytedance-Seed/par-protein) [![Model](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/collections/ByteDance-Seed/par) [![Blog](https://img.shields.io/badge/Blog-0A66C2)](https://par-protein.github.io/) <br> *ByteDance Seed* · ICML 2026 · `2026-02` · `Protein` `Structure`
+- **Ambient Proteins**: Training Diffusion Models on Low Quality Structures [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.biorxiv.org/content/10.1101/2025.07.03.663105) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/jozhang97/ambient-proteins) <br> *UT Austin* · bioRxiv · `2025-07` · `Protein` `Structure`
+- **Proteina**: Scaling Flow-based Protein Structure Generative Models [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2503.00710) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/NVIDIA-Digital-Bio/proteina) [![Blog](https://img.shields.io/badge/Blog-0A66C2)](https://research.nvidia.com/labs/genair/proteina/) <br> *NVIDIA* · ICLR 2025 · `2025-03` · `Protein` `Structure`
 
 ## 📊 Benchmarks & Analyses
 
