@@ -16,7 +16,7 @@
 
 ## 📰 News
 
-- **2026-10**: Repository created with the first 25 entries.
+- **2026-10**: Repository created with the first 26 entries.
 
 ## 📑 Table of Contents
 
@@ -49,6 +49,7 @@
 *Discrete tokenizers that turn biological structures and cell states into tokens a language model can read and write.*
 
 - **ADT**: All-Atom Diffusion Tokenizer for 3D Molecular Structures [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2610.23265) <br> *PKU, Shanghai AI Lab, CUHK* · arXiv · `2026-10` · `Protein` `Molecule` `Structure`
+- **APT**: Adaptive Protein Tokenization [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2602.06418) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/rdilip/apt) <br> *Caltech (Van Valen Lab)* · arXiv · `2026-02` · `Protein` `Structure`
 - **GCP-VQVAE**: A Geometry-Complete Language for Protein 3D Structure [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://www.biorxiv.org/content/10.1101/2025.10.01.679833) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/mahdip72/vq_encoder_decoder) <br> *University of Missouri* · bioRxiv · `2025-10` · `Protein` `Structure`
 - **Mol-StrucTok**: Tokenizing 3D Molecule Structure with Quantized Spherical Coordinates [![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://arxiv.org/abs/2412.01564) [![Code](https://img.shields.io/badge/Code-181717?logo=github)](https://github.com/KyGao/Mol-StrucTok) <br> *Gao et al.* · arXiv · `2024-12` · `Molecule` `Structure`
 
